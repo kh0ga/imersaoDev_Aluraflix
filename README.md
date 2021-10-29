@@ -1,5 +1,5 @@
 # É tipo Pinterest - Projeto Aluraflix
-Nesse exercício nós desenvolvemos um site que serveria como uma lista de filmes e séries favoritos, onde colocamos a URL da imagem dos nossos filmes favoritos e iamos adicionando.
+Nesse exercício nós desenvolvemos um site que serviria como uma lista de filmes e séries favoritos, onde colocamos a URL da imagem dos nossos filmes favoritos e íamos adicionando.
 Como nos foi proposto escolher um tema para fazer a nossa lista de favoritos, podendo ser jogos, filmes, séries, livros, etc.
 <br> Eu escolhi fazer como se fosse uma lista de referências para que pudesse ser usado como inspiração para criação de artes, ilustrações, decorações, etc realmente como é o Pinterest, por isso o nome do projeto. Porém qualquer tipo de imagem pode ser inserida.
 
