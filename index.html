@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>Imersão Dev - Aula 05</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      É tipo pinterest - projeto Aluraflix
+    </h1>
+
+    <p class="page-subtitle">
+      Imagens para usar como referência e inspiração para projetos
+    </p>
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt="">
+
+    <div class="form-wrapper">
+
+      <input type="text" id="imagem" name="imagem" placeholder="URL da imagem">
+
+      <input type="text" id="inputTituloImagem" placeholder="Título (opcional)">
+
+      <button class="botao-adicionar" onclick="adicionarImagem()">Adicionar</button>
+
+      <button class="botao-mostrar" onclick="mostrarBotao()">Excluir ▾</button>
+
+      <section id="sectionExcluir">
+        <input type="text" id="inputExcluir" placeholder="Índice a ser excluido">
+
+        <button class="botao-excluir" onclick="excluirImagem()">OK</button>
+      </section>
+
+      <em>Clique nas imagens para abrir em tamanho real</em>
+
+    </div>
+
+  </div>
+
+  <div id="listaImagem"></div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

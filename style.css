@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("img/bg-img.png");
+  background-color: #000;
+  background-size: 90vh;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 60px 0 10px 0;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaImagem img {
+  margin: 10px;
+  max-height: 250px;
+  transition: 0.3s;
+}
+
+#sectionExcluir {
+  display: none;
+
+  justify-content: center;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  text-align: center;
+  width: 237px;
+}
+
+#inputExcluir {
+  width: 177px;
+  margin: 0 5px;
+}
+
+.form-wrapper button {
+  width: 115px;
+  height: 48px;
+  border: 0;
+  color: #ffffff;
+  background: #0fc3fa;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 0 auto 10px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button.botao-excluir {
+  background: #0fc3fa;
+  width: 50px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.form-wrapper button.botao-mostrar {
+  background: #2b2b2b;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+em {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+}
+
+div .indice {
+  background-color: #0fc3fa;
+  font-weight: bold;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin: -40px 10px;
+  position: absolute;
+}
+
+div .imagem {
+  display: inline-block;
+  transition: 0.5s;
+}
+
+div .imagem:hover {
+  transform: scale(1.2);
+}
+
+.titulo-imagem {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
